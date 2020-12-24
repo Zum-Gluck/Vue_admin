@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<AdminHeader></AdminHeader>
+		<AdminHeader :adminName="adminName"></AdminHeader>
 		<AdminMenu></AdminMenu>
 		<AdminCard></AdminCard>
 	</div>
@@ -17,9 +17,15 @@ export default {
 		AdminMenu,
 		AdminCard,
 	},
+	data() {
+		return {
+			adminName: "",
+		};
+	},
 	methods: {},
 	async created() {
 		let { data: res } = await this.$http.get("/auth");
+		this.adminName = res.userInfo.username;
 		console.log(res);
 	},
 };

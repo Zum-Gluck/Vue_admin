@@ -22,7 +22,7 @@
 				</li>
 				<li>
 					<a href="javascript:;" @mouseenter="isFade = true" @mouseleave="isFade = false">
-						Admin
+						{{ adminName }}
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a>
 					<!-- 二级菜单 -->
@@ -55,6 +55,7 @@
 <script>
 export default {
 	name: "AdminHeader",
+	props: ["adminName"],
 	data() {
 		return {
 			isFade: false, // 控制二级菜单的显示与隐藏
@@ -137,9 +138,9 @@ export default {
 				width: 179px;
 				color: #000;
 				background-color: #fff;
-        transition: all 0.4s ease-in-out;
-        border: 1px #eaeaea solid;
-        border-top: 0;
+				transition: all 0.4s ease-in-out;
+				border: 1px #eaeaea solid;
+				border-top: 0;
 				z-index: 9;
 				i {
 					font-size: 15px;
