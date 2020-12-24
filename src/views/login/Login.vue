@@ -2,7 +2,7 @@
 	<div id="login_bg">
 		<div id="login">
 			<div class="lg_tit">
-				<span>管理员登录</span>
+				<span>Admin</span>
 			</div>
 			<div class="line">
 				<div class="line_l"></div>

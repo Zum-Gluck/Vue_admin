@@ -6,6 +6,104 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1770148",
+      "name": "exit",
+      "font_class": "exit",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1092129",
+      "name": "对话",
+      "font_class": "duihua",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "1160153",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "3866104",
+      "name": "设置",
+      "font_class": "shezhi-",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "3878681",
+      "name": "设置",
+      "font_class": "settings",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4503701",
+      "name": "profile",
+      "font_class": "profile",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "4685694",
+      "name": "下",
+      "font_class": "Group-",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "5519214",
+      "name": "文章",
+      "font_class": "wenzhang",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "5560730",
+      "name": "profile-male",
+      "font_class": "profile-male",
+      "unicode": "e770",
+      "unicode_decimal": 59248
+    },
+    {
+      "icon_id": "5582315",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "6061396",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "6264177",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "8121041",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "11690678",
+      "name": "信息",
+      "font_class": "ziyuan",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
       "icon_id": "1308403",
       "name": "221用户_密码_钥匙",
       "font_class": "221yonghu_mima_yuechi",
